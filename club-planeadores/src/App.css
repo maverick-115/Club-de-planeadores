@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+.App {
+  text-align: center;
+}
+@media (max-width:991px) {
+	nav.navbar .menu {
+    background: linear-gradient(90.21deg, rgba(54, 166, 185, 0.5) -5.91%, rgba(40, 199, 204, 0.5) 111.58%) !important;
+	}
+}
+/* NavBar*/
+nav.navbar {
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s ease-in-out;
+}
+nav.navbar a{
+  color: black !important;
+  
+}
+nav.navbar.scrolled {
+  padding: 5px 0;
+  background: linear-gradient(90.21deg, #1b7aa0 -5.91%, #2f90bd 111.58%);
+}
+
+
+
+/************ Card ************/
+
+.card{
+  margin: 0 auto !important ;
+  height: 100% !important;
+  margin-bottom: 10px !important;
+}
+.card button{
+  width: 150px;
+  align-self: center;
+}
+/************ Footer Css ************/
+.footer {
+  background: linear-gradient(90.21deg, #1b7aa0 -5.91%, #2f90bd 111.58%);
+
+
+}
