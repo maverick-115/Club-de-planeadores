@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Club-de-planeadores/static/css/main.b0fb2dd5.css",
-    "main.js": "/Club-de-planeadores/static/js/main.1b1217d6.js",
+    "main.js": "/Club-de-planeadores/static/js/main.537dd299.js",
     "static/js/787.46f69bc1.chunk.js": "/Club-de-planeadores/static/js/787.46f69bc1.chunk.js",
     "static/media/puchacz-1.png": "/Club-de-planeadores/static/media/puchacz-1.c6d995cd798fe86b5e92.png",
     "static/media/1920x1080-px-aircraft-glider-1208946-wallhere.com.jpg": "/Club-de-planeadores/static/media/1920x1080-px-aircraft-glider-1208946-wallhere.com.2cf0d79df989b987b85f.jpg",
@@ -17,11 +17,11 @@
     "index.html": "/Club-de-planeadores/index.html",
     "static/media/getFetch.cjs": "/Club-de-planeadores/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.b0fb2dd5.css.map": "/Club-de-planeadores/static/css/main.b0fb2dd5.css.map",
-    "main.1b1217d6.js.map": "/Club-de-planeadores/static/js/main.1b1217d6.js.map",
+    "main.537dd299.js.map": "/Club-de-planeadores/static/js/main.537dd299.js.map",
     "787.46f69bc1.chunk.js.map": "/Club-de-planeadores/static/js/787.46f69bc1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0fb2dd5.css",
-    "static/js/main.1b1217d6.js"
+    "static/js/main.537dd299.js"
   ]
 }
