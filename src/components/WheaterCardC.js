@@ -3,7 +3,8 @@ import Badge from "react-bootstrap/Badge";
 import { useTranslation } from "react-i18next";
 
 const WheaterCard = () => {
-  const { t } = useTranslation();
+  const [t, i18n] = useTranslation("global");
+
   return (
 
     <Card className="text-center">

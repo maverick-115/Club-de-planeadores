@@ -1,0 +1,36 @@
+{
+  "language": "Language",
+  "aboutUs": "About us",
+  "history": "History",
+  "fleet": "Fleet",
+  "partners": "Partners",
+  "weatherReport": "Weather report",
+
+  "card-pilot-title": "Do you want to be a pilot?",
+  "card-pilot-desc": "The course consists of carrying out approximately 40 or 50 flights or practical classes aboard a two-seater glider, complemented by approximately 5 theoretical classes (aerodynamics, meteorology, gliding theory).",
+  "card-pilot-button": "Come to pilot!",
+
+  "card-baptism-title": "Baptism flight.",
+  "card-baptism-desc": "Come and have your baptism flight. Feel the sentation of soaring like a bird. You'll fly in a two seat glider piloted by one of our pilots. A 180 HP tow plane will tow the glider to a height of 500 meters.",
+  "card-baptism-button": "Come to fly!",
+
+  "card-deportive-title": "Deportive flights.",
+  "card-deportive-desc": "Experience the sensation of Gliding, a sport in which pilots in command of gliders (aircraft without an engine) fly taking advantage of the rising air currents (thermal, dynamic, waves) to stay in the air and, if desired, travel great distances, just as birds do.",
+  "card-deportive-button": "Come to compete!",
+
+  "history-desc": "With the invention of the balloon and the airship, inventors began trying to create a heavier-than-air machine that was capable of flying under its own power. First of all, gliders appeared, machines capable of sustaining controlled flight for some time. In 1799, George Cayley, an English inventor, designed a relatively modern glider, which had a tail to control it, and a place where the pilot could be placed, below the center of gravity of the apparatus, thus giving stability to the aircraft.",
+
+  "weather-title": "Wheater in Buenos Aires",
+  "weather-wind": "WIND",
+  "weather-humidity": "HUMIDITY",
+  "weather-cloudiness": "CLOUDINESS",
+  "weather-precipitation": "PRECIPITATION",
+  "weather-actualization": "2 days ago",
+
+  "design": "Design: ",
+
+
+
+  "greeting": "Hello",
+  "text": "Thank you for visiting our website."
+}

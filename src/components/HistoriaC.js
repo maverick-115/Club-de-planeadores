@@ -3,7 +3,8 @@ import historypic from "./assets/images/3794578_orig.jpg";
 import { useTranslation } from "react-i18next";
 
 const Historia = () => {
-  const { t } = useTranslation();
+  const [t, i18n] = useTranslation("global");
+
 
   return (
     <Card>

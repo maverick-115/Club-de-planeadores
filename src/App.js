@@ -14,13 +14,13 @@ import LocaleContext from './LocaleContext';
 
 
 function App() {
-  const [locale, setLocale] = useState(i18n.language);
+  // const [locale, setLocale] = useState(i18n.language);
 
-  i18n.on('languageChanged', (lng) => setLocale(i18n.language));
+  // i18n.on('languageChanged', (lng) => setLocale(i18n.language));
 
   return (
     <div className="App">
-      <LocaleContext.Provider value={{locale, setLocale}}>
+      {/* <LocaleContext.Provider value={{locale, setLocale}}> */}
         <Suspense fallback={<Loading></Loading>}>
           <NavBar></NavBar>
           <CarouselFade></CarouselFade>
@@ -29,7 +29,7 @@ function App() {
           <Wheater id="wheater"></Wheater>
           <Footer></Footer>
         </Suspense>
-      </LocaleContext.Provider>
+      {/* </LocaleContext.Provider> */}
     </div>
   );
 }

@@ -4,7 +4,8 @@ import bautismo2 from "./assets/images/bautismo2.png";
 import { useTranslation } from "react-i18next";
 
 const ActividadesCardBautismo = () => {
-  const { t } = useTranslation();
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Card style={{ width: "20rem" }}>
       <Card.Img variant="top" src={bautismo2} />

@@ -4,7 +4,8 @@ import planeador2 from "./assets/images/planeador2.png";
 import { useTranslation } from "react-i18next";
 
 const ActividadesCardDeportivo = () => {
-  const { t } = useTranslation();
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Card style={{ width: "20rem" }}>
       <Card.Img variant="top" src={planeador2} />

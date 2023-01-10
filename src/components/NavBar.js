@@ -3,16 +3,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useTranslation } from "react-i18next";
-import LocaleContext from "../LocaleContext";
-import i18n from "../i18n";
-import { useContext } from "react";
+// import LocaleContext from "../LocaleContext";
+// import i18n from "../i18n";
+// import { useContext } from "react";
 import { useState, useEffect } from "react";
+// import { changeLanguage } from "i18next";
 
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const { t } = useTranslation();
-  const { locale } = useContext(LocaleContext);
+  const [t, i18n] = useTranslation("global");
+  // const { locale } = useContext(LocaleContext);
   
   
   
@@ -31,23 +32,23 @@ const NavBar = () => {
   
  
 
-  function idioma(){
-    var checkedValue = document.querySelector('#idiomaC');
-    if (checkedValue.checked){
-      i18n.changeLanguage('en');
-    }else{
-      i18n.changeLanguage('es');
+  // function idioma(){
+  //   var checkedValue = document.querySelector('#idiomaC');
+  //   if (checkedValue.checked){
+  //     i18n.changeLanguage('en');
+  //   }else{
+  //     i18n.changeLanguage('es');
 
-    }
+  //   }
 
- }
+ //}
   
 
-  function changeLocale (l) {
-    if (locale !== l) {
-      i18n.changeLanguage(l);
-    }
-  }
+  // function changeLocale (l) {
+  //   if (locale !== l) {
+  //     i18n.changeLanguage(l);
+  //   }
+  // }
 
   return (
     <Navbar expand="lg"  className={scrolled ? "scrolled": ""} >
@@ -57,8 +58,8 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="menu" >
           <Nav className="me-auto">
           <NavDropdown title={t('language')} id="basic-nav-dropdown" className="ms-auto">
-              <NavDropdown.Item onClick={() => changeLocale('en')}>English</NavDropdown.Item>
-              <NavDropdown.Item onClick={() => changeLocale('es')}>Español</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => i18n.changeLanguage("en")}>English</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => i18n.changeLanguage("es")}>Español</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
               title={t('aboutUs')}

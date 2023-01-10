@@ -5,7 +5,8 @@ import { useTranslation } from "react-i18next";
 
 
 const ActividadesCardCurso = () => {
-  const { t } = useTranslation();
+  const [t, i18n] = useTranslation("global");
+
   return (
     <Card style={{ width: "20rem" }} >
       <Card.Img variant="top" src={instrumental2} />

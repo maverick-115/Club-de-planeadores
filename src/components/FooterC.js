@@ -7,7 +7,8 @@ import { Row, Col } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const [t, i18n] = useTranslation("global");
+
 
   return (
     <footer  className="footer">
