@@ -1,0 +1,35 @@
+{
+  "language": "Lenguaje",
+  "aboutUs": "Nosotros",
+  "history": "Historia",
+  "fleet": "Flota",
+  "partners": "Socios",
+  "weatherReport": "Reporte meteorolgico",
+
+  "card-pilot-title": "Queres ser piloto?",
+  "card-pilot-desc": "El curso consiste en la realización de aproximadamente 40 o 50 vuelos o clases prácticas a bordo de un planeador biplaza, complementadas con aproximadamente 5 clases teóricas (aerodinámica, meteorología, teoría de vuelo a vela).",
+  "card-pilot-button": "Veni a pilotar!",
+
+  "card-baptism-title": "Vuelos bautismo.",
+  "card-baptism-desc": "Vení al club y hacé tu vuelo de bautismo. Experimenta la sensación de volar como los pájaros. Volarás en un planeador biplaza comandado por un piloto de nuestro Club. Un avión remolcador de 180 HP remolcará al planeador hasta una altura de 500 metros.",
+  "card-baptism-button": "Veni a volar!",
+
+  "card-deportive-title": "Vuelos deportivos.",
+  "card-deportive-desc": "Experimente la sensación del Vuelo a Vela, un deporte en el que los pilotos al mando de planeadores (aeronave sin motor) vuelan aprovechando las corrientes de aire ascendente (térmicas, dinámicas, ondas) para mantenerse en el aire y, si lo desea, recorrer grandes distancias, tal como lo hacen los pájaros.",
+  "card-deportive-button": "Veni a competir!",
+
+  "history-desc": "Con la invención del globo y del dirigible, los inventores pasaron a intentar crear una máquina más pesada que el aire, que fuese capaz de volar por medios propios. En primer lugar, aparecieron los planeadores, máquinas capaces de sustentar el vuelo controlado durante algún tiempo. En 1799, George Cayley, un inventor inglés, diseñó un planeador relativamente moderno, que contaba con una cola para controlarlo, y un lugar donde el piloto se podía colocar, por debajo del centro de gravedad del aparato, dando así estabilidad a la aeronave.",
+
+  "weather-title": "Clima en Buenos Aires",
+  "weather-wind": "VIENTO",
+  "weather-humidity": "HUMEDAD",
+  "weather-cloudiness": "NUBOSIDAD",
+  "weather-precipitation": "PRECIPITACION",
+  "weather-actualization": "Hace 2 dias",
+
+  "design": "Diseño: ",
+
+
+  "greeting": "Hola",
+  "text": "Gracias por visitar nuetra pagina"
+}
